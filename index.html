@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+        body {
+            background-color: #e3e7eb;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 80px auto;
+            border: 1px solid white;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(128, 128, 128, 0.75);
+        }
+
+        .card {
+            max-width: 500px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .title {
+            margin-bottom: 0;
+        }
+
+        .description {
+            margin-top: 0;
+        }
+
+        .button {
+            background-color: #111727;
+            color: white;
+            border-radius: 50px;
+            padding: 10px 30px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .icon {
+            margin-left: 10px;
+        }
+
+        .link {
+            color: black;
+            font-size: 17.5px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .icon-group {
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .profil {
+            max-width: 350px;
+            margin: auto;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(128, 128, 128, 0.75);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .name {
+            margin: 5px;
+        }
+
+        .position {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h2 class="title"> Hii Welcome to My Blog</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique purus orci
+                libero egestas ut. Augue suspendisse blandit lorem massa ipsum, urna, egestas mi, lacinia. Dui fusce
+                etiam libero, lectus amet, risus molestie malesuada. Odio nam purus consectetur euismod congue leo
+                quisque. Turpis amet sollicitudin nunc non in lectus dolor amet. Amet ullamcorper faucibus tincidunt
+                accumsan ac adipiscing arcu. Donec tristique at proin maecenas. Ante elit et iaculis ac sit.
+            </p>
+
+            <a href="#" class="link">
+                <button class="button">
+                    contact
+                </button>
+            </a>
+            <a href="#" class="link">
+                download CV <i class="icon fa-solid fa-download"></i>
+            </a>
+
+            <div class="icon-group">
+                <a href="#" class="link">
+                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+                <a href="#" class="link">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                </a>
+                <a href="#" class="link">
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                </a>
+                <a href="#" class="link">
+                    <i class="fa-brands fa-square-twitter fa-2xl"></i>
+                </a>
+            </div>
+            <div class="profil">
+                <img src="public/asset/Elon_Musk2.jpg" alt="Gambar Elon Musk">
+                <h2 class="name">ELON MUSK</h2>
+                <p class="position">Fullstack Developer</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
